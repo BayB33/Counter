@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+#count {
+    font-size: 3rem;
+}
+
+button {
+    width: 7rem;
+    height: 3rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #c5c5c7;
+    border-radius: 10px;
+    color: rgb(26, 21, 21);
+    border: 1px solid transparent;
+    box-shadow: .2rem .2rem .2rem;
+}
+
+button:hover {
+    background-color: #404041;
+    color: rgb(255, 255, 255);
+}
